@@ -1,38 +1,38 @@
 INICIAR
 
 li   0        ACC ← 0
-sw   0        Mem[0] ← ACC   ; F(0)
+sw   0        Mem[0] ← ACC    F(0)
 li   1        ACC ← 1
-sw   1        Mem[1] ← ACC   ; F(1)
+sw   1        Mem[1] ← ACC    F(1)
 
 --
 
 lw   1        ACC ← Mem[1]
-add  0        ACC ← ACC + Mem[0]  ; F(2)
+add  0        ACC ← ACC + Mem[0]   F(2)
 sw   2        Mem[2] ← ACC
 
 lw   2        ACC ← Mem[2]
-add  1        ACC ← ACC + Mem[1]  ; F(3)
+add  1        ACC ← ACC + Mem[1]   F(3)
 sw   3        Mem[3] ← ACC
 
 lw   3        ACC ← Mem[3]
-add  2        ACC ← ACC + Mem[2]  ; F(4)
+add  2        ACC ← ACC + Mem[2]   F(4)
 sw   4        Mem[4] ← ACC
 
 lw   4        ACC ← Mem[4]
-add  3        ACC ← ACC + Mem[3]  ; F(5)
+add  3        ACC ← ACC + Mem[3]   F(5)
 sw   5        Mem[5] ← ACC
 
 lw   5        ACC ← Mem[5]
-add  4        ACC ← ACC + Mem[4]  ; F(6)
+add  4        ACC ← ACC + Mem[4]   F(6)
 sw   6        Mem[6] ← ACC
 
 lw   6        ACC ← Mem[6]
-add  5        ACC ← ACC + Mem[5]  ; F(7)
+add  5        ACC ← ACC + Mem[5]   F(7)
 sw   7        Mem[7] ← ACC
 
 lw   7        ACC ← Mem[7]
-add  6        ACC ← ACC + Mem[6]  ; F(8)
+add  6        ACC ← ACC + Mem[6]   F(8)
 sw   8        Mem[8] ← ACC
 
 FIN
