@@ -1,0 +1,28 @@
+0 - B
+1 - A
+2 - WE.RAM
+3 - OE.RAM
+4 - WE.MAR
+5 - MUX de RAM y S.ALU
+6 - 
+7 - IR_LOW e IR_HI
+8 - 
+9 - WE.PC
+10 - CIN
+11 - CIN
+12 - CIN
+
+-----
+
+0001 (lw)      = 1
+0010 (sw)      = 2
+0011 (add)     = 3
+0100 (sub)     = 4
+0101 (li)      = 5
+0110 (jz)      = 6
+0111 (jmp)     = 7
+1000 (syscall) = 8
+1001 (xor)     = 9
+1010 (or)      = A
+1011 (and)     = B
+1100 (nand)    = C
