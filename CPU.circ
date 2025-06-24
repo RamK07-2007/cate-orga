@@ -211,6 +211,15 @@ c20 620 20 40 1016 12*0 8000
       <a name="label" val="IR_HI"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="5" loc="(2350,70)" name="7-Segment Display"/>
+    <comp lib="5" loc="(2410,70)" name="7-Segment Display"/>
+    <comp lib="5" loc="(2470,70)" name="7-Segment Display"/>
+    <comp lib="9" loc="(2350,70)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="9" loc="(2360,190)" name="Binary_to_BCD_converter">
+      <a name="binvalue" val="8"/>
+    </comp>
+    <comp lib="9" loc="(2410,70)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="9" loc="(2470,70)" name="BCD_to_7_Segment_decoder"/>
     <comp loc="(2090,170)" name="ALU"/>
     <wire from="(1000,320)" to="(1070,320)"/>
     <wire from="(1000,510)" to="(1040,510)"/>
@@ -304,6 +313,9 @@ c20 620 20 40 1016 12*0 8000
     <wire from="(2240,190)" to="(2330,190)"/>
     <wire from="(2240,90)" to="(2240,190)"/>
     <wire from="(230,420)" to="(260,420)"/>
+    <wire from="(2360,150)" to="(2360,170)"/>
+    <wire from="(2420,150)" to="(2420,170)"/>
+    <wire from="(2480,150)" to="(2480,170)"/>
     <wire from="(260,290)" to="(260,380)"/>
     <wire from="(260,290)" to="(410,290)"/>
     <wire from="(320,380)" to="(340,380)"/>
